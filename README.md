@@ -1,5 +1,4 @@
-Find out more here: www.jointswp.com  
-Demo: www.jointswp.com/demo
+Find out more here: www.bondgenoten.com  
 
 Currently using Foundation 6.2.1
 
