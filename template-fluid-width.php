@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Full width (no Sidebar)
+Template Name: Fluid width (no sidebar)
 */
 ?>
 
@@ -8,7 +8,7 @@ Template Name: Full width (no Sidebar)
 			
 	<div id="content">
 	
-		<div id="inner-content" class="row">
+		<div id="inner-content" class="row expanded">
 	
 		    <main id="main" class="large-12 medium-12 columns" role="main">
 				

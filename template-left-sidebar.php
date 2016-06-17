@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Full width (no Sidebar)
+Template Name: Left Sidebar
 */
 ?>
 
@@ -9,8 +9,8 @@ Template Name: Full width (no Sidebar)
 	<div id="content">
 	
 		<div id="inner-content" class="row">
-	
-		    <main id="main" class="large-12 medium-12 columns" role="main">
+
+		    <main id="main" class="large-8 medium-8 large-push-4 medium-push-4 columns" role="main">
 				
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -19,6 +19,8 @@ Template Name: Full width (no Sidebar)
 				<?php endwhile; endif; ?>							
 
 			</main> <!-- end #main -->
+
+			<?php get_sidebar('left'); ?>
 		    
 		</div> <!-- end #inner-content -->
 	
